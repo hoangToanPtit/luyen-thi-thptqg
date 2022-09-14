@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+.bang-thong-ke table, 
+.bang-thong-ke th, 
+.bang-thong-ke td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.bang  .nut-xem-chi-tiet {
+    color: #4e73df;
+    font-size: 1.1rem;
+}
+
+/* .form-them-de-thi {
+    display: block;
+} */
+
+/* .form-sua-thong-tin-de-thi {
+    display: block;
+} */

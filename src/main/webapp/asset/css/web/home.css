@@ -1,0 +1,42 @@
+
+.noi-dung {
+    display: flex;
+    background-color: #fff;
+    min-height: 100vh;
+}
+.noi-dung img{
+    width: 670px;
+    margin-top: 25vh;
+}
+
+.noi-dung .gioi_thieu{
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+.noi-dung .gioi_thieu h1{
+    font-size: 52px;
+    color: #4CBC9A;
+    margin-bottom: 30px;
+}
+
+.noi-dung .gioi_thieu a{
+    display: block;
+    float: left;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #4CBC9A;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.noi-dung .gioi_thieu a:hover{
+    background-color: #2a9474;
+
+}

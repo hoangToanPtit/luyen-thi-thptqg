@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+    color: #A098AE;
+    position: relative;
+
+}
+
+.dang_nhap_form{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 40px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(171, 171, 171) 0px 0px 25px;
+}
+
+.dang_nhap_form h2{
+    text-align: center;
+    font-weight: 500;
+    color: #3D4A5C;
+}
+
+.dang_nhap_form small{
+    text-align: center;
+}
+
+.dang_nhap_form img{
+    display: inline-block;
+    width: 150px;
+    /* margin: 0 auto; */
+    margin-bottom: 5px;
+    margin-top: -20px;
+}
+
+.dang_nhap_form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+.dang_nhap_form input[type="text"],
+.dang_nhap_form input[type="password"]{
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #A098AE;
+    padding: 15px;
+}
+
+.dang_nhap_form input[type="text"]:active,
+.dang_nhap_form input[type="password"]:active{
+    border: 2px solid #4CBC9A ;
+
+}
+
+.nut_dang_nhap button{
+    background-color: #4CBC9A;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dang_nhap_form .error{
+    font-size: 13px;
+}
+
+
+/* .dau_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

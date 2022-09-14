@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+    color: #A098AE;
+    position: relative;
+
+}
+
+.trang-admin {
+    position: relative;
+}
+
+/* ========================= header =============== */
+
+.dau-trang{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px -3px 13px 0px #000000;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 100;
+    position: fixed;
+}
+.logo {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+.logo img{
+    width: 170px;
+}
+.logo_nho img{
+    width: 55px;
+    margin-left: 8px;
+}
+
+.logo_nho {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo_nho i{
+    color: #4CBC9A;
+    font-size: 28px;
+}
+
+.logo_nho p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #3D4A5C ;
+}
+
+.dau-trang .thoi_gian {
+    font-size: 28px;
+    color: #3D4A5C;
+}
+
+.dau-trang .thoi_gian i{
+    font-size: 30px;
+    color: #4CBC9A;
+}
+
+.dau-trang .tai-khoan button{
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #4CBC9A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.dau-trang .tai-khoan button:hover{
+    background-color: #2a9474;
+}
+
+.nut_dieu_khien {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: -300px;
+}
+
+.nut_dieu_khien div{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4CBC9A;
+    border-radius: 8px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #3D4A5C;
+}
+
+.nut_dieu_khien div:first-child{
+    background-color:  #4CBC9A;
+    color: #fff;
+}
+
+.nut_dieu_khien div:first-child:hover{
+    background-color: #2a9474;
+}
+
+.nut_dieu_khien div:last-child{
+    border: 2px solid #A098AE;
+}
+
+.nut_dieu_khien div:last-child:hover{
+    color: #fff;
+    background-color: #A098AE;
+}
+
+.o-tim-kiem{
+    width: 500px;
+    height: 46px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #4CBC9A;
+    background-color: #fafafa;
+}
+
+.o-tim-kiem input{
+    border: none;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.o-tim-kiem i{
+    margin-left: 5px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #4CBC9A;
+}
+
+
+.tai-khoan {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 30px;
+}
+
+.tai-khoan img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.tai-khoan span {
+    font-size: 0.9;
+    margin-left: 10px;
+}
+
+
+/* ================== slide bar================== */
+.menu-doc{
+    width: 76px;
+    height: 100vh;
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    font-size: 1.2rem;
+    position: fixed;
+    z-index: 5;
+}
+
+.danh-muc{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.danh-muc li {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    text-align: center;
+    color: #A098AE;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.danh-muc .duoc-chon {
+    background-color: #4CBC9A;
+    color: #fff;
+}
+.danh-muc .duoc-chon a{
+    color: #fff;
+}
+
+.danh-muc :hover {
+    background-color: #E9F4F0;
+}
+
+.danh-muc i {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+}
+
+.danh-muc a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #A098AE;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 0;
+}
+
+
+/* ====================== noi dung ================= */
+.noi-dung{
+    width: 80%;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+.noi-dung .ten-muc {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3D4A5C;
+    margin-top: 10px;
+}
+.noi-dung .thong-tin-chung {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thong-tin-chung .nut-ql {
+    width: 45%;
+    height: 90px;
+    border-radius: 15px;
+    background-color:#fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thong-tin-chung .nut-ql:hover {
+    background-color: #E9F4F0;
+    border: none;
+}
+
+.thong-tin-chung .so-luong{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E9F4F0;
+
+}
+
+.thong-tin-chung .so-luong span{
+    font-weight: 600;
+    color: #4CBC9A;
+}
+
+.thong-tin-chung .so-luong .sl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thong-tin-chung .so-luong .sl i {
+    margin-top: -5px;
+}
+
+.thong-tin-chung .nut-ql span {
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.thong-tin-chung .nut-ql i {
+    font-size: 2.4rem;
+    color: #4CBC9A;
+}
+
+.thong-tin-chung .them-moi {
+    cursor: pointer;
+    border: 1px solid #4CBC9A;
+}
+
+.muc select  {
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #A098AE;
+}
+
+.chon-answer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* ============== Bang thong ke============== */
+
+.thong-ke{
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    background-color:#fff;
+}
+.thong-ke .ten-bang{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+}
+.bang-thong-ke table {
+    width: 100%;
+}
+.bang-thong-ke table, 
+.bang-thong-ke th, 
+.bang-thong-ke td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.bang-thong-ke th, 
+.bang-thong-ke td{
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.bang-thong-ke td:nth-child(1), 
+.bang-thong-ke td:nth-child(2),
+.bang-thong-ke td:nth-last-child(1),
+.bang-thong-ke td:nth-last-child(2){
+    text-align: center;
+}
+
+.bang-thong-ke td:nth-last-child(1),
+.bang-thong-ke td:nth-last-child(2){
+    text-align: center;
+    cursor: pointer;
+}
+
+.bang-thong-ke tr:hover {
+    background-color: #E9F4F0;
+}
+
+
+.bang{
+    font-size: 0.8rem;
+}
+
+.bang th{
+    background-color: #E9F4F0;
+    text-align: center;
+}
+
+.bang .nut-sua {
+    color: #4CBC9A;
+    font-size: 1rem;
+}
+
+.bang .nut-xoa {
+    color: red;
+    font-size: 1rem;
+}
+
+.thong-ke .so-trang{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.thong-ke .so-trang button {
+    font-size: 1rem;
+    color: #A098AE;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #4CBC9A;
+}
+
+.thong-ke .so-trang button:hover,
+.thong-ke .so-trang .duoc-chon {
+    background-color: #E9F4F0;
+}
+
+/* =========== .form-ql-hs============= */
+.nen-xam {
+    width: 100%;
+    height: 100vh;
+    background-color: #7c7d7e9a;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.form-ql-hs {
+    background-color: #fff;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    margin-top: 9vh;
+}
+
+.form-ql-hs .dau-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-ql-hs .dau-form p {
+    font-size: 1.2rem;
+}
+
+.form-ql-hs .dau-form i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.form-ql-hs .muc{
+    font-size: 1rem;
+}
+
+
+.form-ql-hs input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-ql-hs .nut-submit {
+    width: 100%;
+    background-color: #4CBC9A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.form-ql-hs .nut-submit:hover {
+    background-color: #4cbc9ad5;
+}

@@ -1,0 +1,185 @@
+.mon_hoc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.mon{
+    display: block;
+    width: 88px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #4CBC9A ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mon_hoc .duoc_chon{
+    background-color: #4CBC9A;
+    color: #fff;
+}
+
+.phan_giua{
+    margin-top: 50px;
+}
+
+.danh_sach_de_thi .de_thi{
+    width: 600px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.danh_sach_de_thi .de_thi:hover{
+    background-color: #E9F4F0;
+}
+
+.de_thi .so_tt{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #E9F4F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4CBC9A;
+}
+
+.de_thi .nut_xem_de_chi_tiet{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.de_thi .nut_xem_de_chi_tiet:hover{
+    color: #4CBC9A;
+}
+
+.de_thi  .ten_de_thi{
+    font-size: 22px;
+    color: #3D4A5C;
+}
+
+
+.de_thi .thong_tin{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.de_thi .thong_tin div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.de_thi .thong_tin div i {
+    color: #A098AE;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.de_thi .thong_tin_de{
+    width: 70%;
+}
+
+.bo_loc{
+    background-color: #fff;
+    height: 330px;
+    width: 350px;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.bo_loc h2{
+    font-weight: 500;
+    color: #3D4A5C;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.bo_loc > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bo_loc .ten_trương_tim_kiem {
+    width: 105px;
+    height: 40px;
+    border: 2px solid #4CBC9A;
+    padding: 5px;
+    color: #4CBC9A;
+    font-weight: 700;
+}
+
+.bo_loc select {
+    height: 40px;
+    border: none;
+    background-color: #FAFAFA;
+    padding: 3px;
+}
+
+.bo_loc .select_trang_thai > div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.bo_loc .select_trang_thai > div input{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #4CBC9A;
+    margin-right: 5px;
+}
+
+.bo_loc .select_trang_thai > div:last-child{
+    margin-top: 10px;
+}
+
+.bo_loc .nut_loc_bai_viet{
+    width: 105px;
+    height: 40px;
+    background-color: #4CBC9A;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    /* margin: 0 auto; */
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.bo_loc .nut_loc_bai_viet:hover{
+    background-color: #2a9474;
+}
+
+.phan_giua {
+    display: flex;
+    justify-content: space-between;
+}
+
+.danh_sach_de_thi{
+    width: 80%;
+}

@@ -1,0 +1,197 @@
+.bang_danh_dau {
+    width: 340px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: -50px;
+    overflow: hidden;
+    position: fixed;
+    top: 165px;
+    right: 150px;
+}
+
+.noi-dung{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chi-tiet-de-thi{
+    width: 72%;
+}
+
+.bang_danh_dau h2{
+    margin-top: 20px;
+    color: #A098AE ;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bang_danh_dau .phan_danh_dau{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.bang_danh_dau .phan_danh_dau div{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #4CBC9A ;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.bang_danh_dau .phan_danh_dau{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.huong_dan_danh_dau {
+    margin-top: 20px;
+    background-color: #E9F4F0;
+    padding: 10px;
+}
+
+.huong_dan_danh_dau > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.huong_dan_danh_dau .huong_dan div{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #4CBC9A;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.danh_dau_cau_da_lam div{
+    background-color: #4CBC9A;
+}
+
+.danh_dau_cau_xem_lai div{
+    background-color: #4e73df;
+}
+
+.nut-danh-dau{
+    display: flex;
+    justify-content: flex-end;
+    color: #A098AE;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.cau-hoi .da-danh-dau{
+    color: #4CBC9A;
+}
+
+
+.cau_danh_dau {
+    cursor: pointer;
+}
+
+.thoi_gian{
+    width: 150px;
+}
+
+
+.nut_dieu_khien .duoc_chon{
+    color: #fff;
+    background-color: #A098AE;
+}
+
+
+
+.che_trang{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #e9f4f0a4;
+    z-index: 10;
+}
+
+.ket_qua{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #e9f4f0a4;
+    z-index: 10;
+}
+
+.ket_qua .nd_ket_qua{
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 18px 0px #6bdcba;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 30vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ket_qua .dau_ket_qua {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ket_qua .dau_ket_qua img{
+    width: 40px;
+    margin-right: 10px;
+}
+.ket_qua .sau_ket_qua p,
+.ket_qua .sau_ket_qua span{
+    display: block;
+}
+.ket_qua .sau_ket_qua div{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.ket_qua .sau_ket_qua span {
+    margin-left: 10px;
+}
+
+.ket_qua .sau_ket_qua{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-top: 20px;
+    color: #3D4A5C;
+}
+
+.ket_qua .nut_xem_bl button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #4CBC9A;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ket_qua .nut_xem_bl{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+

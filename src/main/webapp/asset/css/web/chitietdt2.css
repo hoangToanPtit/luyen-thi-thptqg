@@ -1,0 +1,122 @@
+.chi-tiet-de-thi{
+    width: 100%;
+}
+
+
+.chi-tiet-de-thi .ten-de {
+    font-size: 1.5rem;
+    color: #3D4A5C;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chi-tiet-de-thi .cau-hoi {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cau-hoi .nut-ql {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cau-hoi .nut-ql i {
+    font-size: 1.1rem;
+}
+
+.cau-hoi .nut-ql .nut-sua {
+    color: #4CBC9A;
+}
+
+.cau-hoi .nut-ql .nut-xoa {
+    color: red;
+}
+
+.chi-tiet-de-thi .noi-dung-cau-hoi {
+    margin-bottom: 5px;
+}
+
+.chi-tiet-de-thi .phuong-an {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 6px;
+}
+
+.chi-tiet-de-thi .phuong-an input[type="radio"] {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    color: #4CBC9A;
+    border: 2px solid #4CBC9A;
+}
+
+/* .chi-tiet-de-thi .phuong-an input ~ .check {
+    color: #4CBC9A;
+} */
+
+
+
+.chi-tiet-de-thi .cau-hoi .an_chon input{
+    display: none;
+}
+
+.nut_bat_dau_lam_bai{
+    width: 150px;
+    height: 40px;
+    background-color: #4CBC9A;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.diem_so_kq,
+.thoi_gian_kq {
+    margin-left: 40px;
+    color: #3D4A5C;
+    font-size: 18px;
+}
+
+.diem_so_kq span,
+.thoi_gian_kq span{
+    color: #4CBC9A;
+}
+
+
+.nut-danh-dau{
+    display: flex;
+    justify-content: flex-end;
+    color: #A098AE;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.nut-danh-dau i {
+    font-size: 26px;
+
+}
+
+.cau-hoi .uil-check{
+    color: #4CBC9A;
+}
+
+
+.cau-hoi .uil-times{
+    color: red;
+
+}
+
+.an{
+    display: none;
+}
